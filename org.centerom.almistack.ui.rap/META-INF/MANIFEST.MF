@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: RAP UI Plugin
+Bundle-SymbolicName: org.centerom.almistack.ui.rap;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Fragment-Host: org.centerom.almistack.ui;bundle-version="1.0.0.qualifier"
+Bundle-Vendor: %Bundle-Vendor
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Export-Package: org.centerom.almistack.ui.rap.application
+Eclipse-PatchFragment: true

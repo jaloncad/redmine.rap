@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+        <meta charset="utf-8"/>
+		<style>
+			body {
+				/*color: #000000; black  */
+				color: #0051B0;	/* blue */
+				font-family: Comic Sans MS;
+				font-size: 1em;
+				text-decoration: none;
+				font-style: normal;
+			}
+
+			#fountainTextG {
+				width: 8.4em;
+				position:absolute;
+				left:50%;
+				top:50%;
+				margin: -3em 0 0 -4em;
+				padding: 1.5em;
+				border: 0.1em solid #0051B0;
+				border-top-left-radius: 1em;
+				border-top-right-radius: 1em;
+				border-bottom-right-radius: 1em;
+				border-bottom-left-radius: 1em;				
+				background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #AAD4FF));		/* Chrome */
+				background: -moz-linear-gradient(top, #ffffff 0%, #AAD4FF 100%);														/* FF3.6+ */
+				background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#AAD4FF));			/* Chrome,Safari4+ */
+				background: -webkit-linear-gradient(top, #ffffff 0%, #AAD4FF 100%);														/* Chrome10+,Safari5.1+ */
+				background: -o-linear-gradient(top, #ffffff 0%, #AAD4FF 100%);															/* Opera 11.10+ */
+				background: -ms-linear-gradient(top, #ffffff 0%, #AAD4FF 100%);															/* IE10+ */
+				background: linear-gradient(to bottom, #ffffff 0%, #AAD4FF 100%);														/* W3C */
+				filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#AAD4FF', GradientType=0 );	/* IE6-9 */
+			}
+	
+			.fountainTextG {
+				float: left;
+				padding-left: 0.1em;
+				-moz-animation-name: bounce_fountainTextG;
+				-moz-animation-duration: 1.82s;
+				-moz-animation-iteration-count: infinite;
+				-moz-animation-direction: linear;
+				-moz-transform: scale(.5);
+				-webkit-animation-name: bounce_fountainTextG;
+				-webkit-animation-duration: 1.82s;
+				-webkit-animation-iteration-count: infinite;
+				-webkit-animation-direction: linear;
+				-webkit-transform: scale(.5);
+				-ms-animation-name: bounce_fountainTextG;
+				-ms-animation-duration: 1.82s;
+				-ms-animation-iteration-count: infinite;
+				-ms-animation-direction: linear;
+				-ms-transform: scale(.5);
+				-o-animation-name: bounce_fountainTextG;
+				-o-animation-duration: 1.82s;
+				-o-animation-iteration-count: infinite;
+				-o-animation-direction: linear;
+				-o-transform: scale(.5);
+				animation-name: bounce_fountainTextG;
+				animation-duration: 1.82s;
+				animation-iteration-count: infinite;
+				animation-direction: linear;
+				transform: scale(.5);
+			}
+
+			#fountainTextG_1 {
+				-moz-animation-delay: 0.52s;
+				-webkit-animation-delay: 0.52s;
+				-ms-animation-delay: 0.52s;
+				-o-animation-delay: 0.52s;
+				animation-delay: 0.52s;
+			}
+
+			#fountainTextG_2 {
+				-moz-animation-delay: 0.65s;
+				-webkit-animation-delay: 0.65s;
+				-ms-animation-delay: 0.65s;
+				-o-animation-delay: 0.65s;
+				animation-delay: 0.65s;
+			}
+
+			#fountainTextG_3 {
+				-moz-animation-delay: 0.78s;
+				-webkit-animation-delay: 0.78s;
+				-ms-animation-delay: 0.78s;
+				-o-animation-delay: 0.78s;
+				animation-delay: 0.78s;
+			}
+
+			#fountainTextG_4 {
+				-moz-animation-delay: 0.91s;
+				-webkit-animation-delay: 0.91s;
+				-ms-animation-delay: 0.91s;
+				-o-animation-delay: 0.91s;
+				animation-delay: 0.91s;
+			}
+
+			#fountainTextG_5 {
+				-moz-animation-delay: 1.04s;
+				-webkit-animation-delay: 1.04s;
+				-ms-animation-delay: 1.04s;
+				-o-animation-delay: 1.04s;
+				animation-delay: 1.04s;
+			}
+
+			#fountainTextG_6 {
+				-moz-animation-delay: 1.17s;
+				-webkit-animation-delay: 1.17s;
+				-ms-animation-delay: 1.17s;
+				-o-animation-delay: 1.17s;
+				animation-delay: 1.17s;
+			}
+
+			#fountainTextG_7 {
+				-moz-animation-delay: 1.3s;
+				-webkit-animation-delay: 1.3s;
+				-ms-animation-delay: 1.3s;
+				-o-animation-delay: 1.3s;
+				animation-delay: 1.3s;
+			}
+
+			#fountainTextG_8 {
+				-moz-animation-delay: 1.43s;
+				-webkit-animation-delay: 1.43s;
+				-ms-animation-delay: 1.43s;
+				-o-animation-delay: 1.43s;
+				animation-delay: 1.43s;
+			}
+
+			#fountainTextG_9 {
+				-moz-animation-delay: 1.56s;
+				-webkit-animation-delay: 1.56s;
+				-ms-animation-delay: 1.56s;
+				-o-animation-delay: 1.56s;
+				animation-delay: 1.56s;
+			}
+
+			#fountainTextG_10 {
+				-moz-animation-delay: 1.69s;
+				-webkit-animation-delay: 1.69s;
+				-ms-animation-delay: 1.69s;
+				-o-animation-delay: 1.69s;
+				animation-delay: 1.69s;
+			}
+
+			@-moz-keyframes bounce_fountainTextG {
+				0% {
+					-moz-transform: scale(1);
+					color: #0051B0;
+				}
+				100% {
+					-moz-transform: scale(.5);
+					color: #FFFFFF;
+				}
+			}
+
+			@-webkit-keyframes bounce_fountainTextG {
+				0% {
+					-webkit-transform: scale(1);
+					color: #0051B0;
+				}
+				100% {
+					-webkit-transform: scale(.5);
+					color: #FFFFFF;
+				}
+			}
+
+			@-ms-keyframes bounce_fountainTextG {
+				0% {
+					-ms-transform:scale(1);
+					color: #0051B0;
+				}
+
+				100% {
+					-ms-transform: scale(.5);
+					color: #FFFFFF;
+				}
+
+			}
+
+			@-o-keyframes bounce_fountainTextG {
+				0%{
+					-o-transform: scale(1);
+					color: #0051B0;
+				}
+				100%{
+					-o-transform: scale(.5);
+					color: #FFFFFF;
+				}
+			}
+
+			@keyframes bounce_fountainTextG {
+				0%{
+					transform: scale(1);
+					color: #0051B0;
+				}
+				100%{
+					transform: scale(.5);
+					color: #FFFFFF;
+				}
+			}
+		</style>
+	</head>	
+	<body>
+		<div id="fountainTextG">	
+			<div>Alm-iStack</div>
+			<div id="fountainTextG_1" class="fountainTextG">L</div>
+			<div id="fountainTextG_2" class="fountainTextG">o</div>
+			<div id="fountainTextG_3" class="fountainTextG">a</div>
+			<div id="fountainTextG_4" class="fountainTextG">d</div>
+			<div id="fountainTextG_5" class="fountainTextG">i</div>
+			<div id="fountainTextG_6" class="fountainTextG">n</div>
+			<div id="fountainTextG_7" class="fountainTextG">g</div>
+			<div id="fountainTextG_8" class="fountainTextG">.</div>
+			<div id="fountainTextG_9" class="fountainTextG">.</div>
+			<div id="fountainTextG_10" class="fountainTextG">.</div>
+		</div>
+	</body>
+</html>

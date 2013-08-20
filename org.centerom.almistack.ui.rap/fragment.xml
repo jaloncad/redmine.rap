@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<fragment>
+   <extension
+         id="org.centerom.almistack.entryPoints"
+         name="Alm-iStack Entry Points"
+         point="org.eclipse.rap.ui.entrypoint">
+      <entrypoint
+      	    id="org.centerom.almistack.ui.rap.applicationEntryPointId"
+            applicationId="org.centerom.almistack.ui.applicationId"
+            brandingId="org.centerom.almistack.ui.rap.applicationBrandingId"
+            path="/application">
+      </entrypoint>
+      <entrypoint
+      		id="org.centerom.almistack.ui.rap.loginEntryPointId"
+            class="org.centerom.almistack.ui.rap.pages.Login"
+            path="/login">
+      </entrypoint>
+   </extension>
+   <extension
+         point="org.eclipse.rap.ui.branding">
+      <branding
+            body="src/main/resources/html/body.html"
+            favicon="src/main/resources/images/logo.png"
+            id="org.centerom.almistack.ui.rap.applicationBrandingId"
+            title="Alm-iStack Collaborative Tool">
+      </branding>
+   </extension>
+   <extension
+         point="org.eclipse.ui.presentationFactories">
+      <factory
+            class="org.eclipse.rap.ui.interactiondesign.PresentationFactory"
+            id="org.centerom.almistack.ui.rap.factoryId"
+            name="Default Web Presentation">
+      </factory>
+   </extension>
+
+
+
+
+
+</fragment>

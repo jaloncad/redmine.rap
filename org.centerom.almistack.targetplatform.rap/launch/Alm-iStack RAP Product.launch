@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.rap.ui.launch.RAPLauncher">
+<setAttribute key="additional_plugins"/>
+<booleanAttribute key="append.args" value="true"/>
+<booleanAttribute key="askclear" value="false"/>
+<booleanAttribute key="automaticAdd" value="false"/>
+<booleanAttribute key="automaticValidate" value="false"/>
+<stringAttribute key="bootstrap" value=""/>
+<stringAttribute key="checked" value="[NONE]"/>
+<booleanAttribute key="clearConfig" value="true"/>
+<booleanAttribute key="clearws" value="true"/>
+<stringAttribute key="configLocation" value="${workspace_loc}/.metadata/.plugins/org.eclipse.pde.core/Alm-iStack RAP Product"/>
+<booleanAttribute key="default" value="true"/>
+<booleanAttribute key="default_auto_start" value="true"/>
+<intAttribute key="default_start_level" value="4"/>
+<stringAttribute key="featureDefaultLocation" value="workspace"/>
+<stringAttribute key="featurePluginResolution" value="workspace"/>
+<booleanAttribute key="includeOptional" value="true"/>
+<booleanAttribute key="org.eclipse.debug.core.appendEnvironmentVariables" value="true"/>
+<listAttribute key="org.eclipse.debug.ui.favoriteGroups">
+<listEntry value="org.eclipse.debug.ui.launchGroup.debug"/>
+<listEntry value="org.eclipse.debug.ui.launchGroup.run"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.JRE_CONTAINER" value="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="-os ${target.os} -ws ${target.ws} -arch ${target.arch} -nl ${target.nl} -console -consolelog"/>
+<stringAttribute key="org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER" value="org.eclipse.pde.ui.workbenchClasspathProvider"/>
+<stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-Declipse.ignoreApp=true&#13;&#10;-Dosgi.noShutdown=true&#13;&#10;-Dorg.eclipse.equinox.http.jetty.log.stderr.threshold=info"/>
+<stringAttribute key="org.eclipse.rap.launch.browserMode" value="EXTERNAL"/>
+<stringAttribute key="org.eclipse.rap.launch.contextpath" value="/almistack"/>
+<stringAttribute key="org.eclipse.rap.launch.dataLocation" value="${workspace_loc}/.metadata/.plugins/org.eclipse.rap.tools.launch/Alm-iStackRAPProduct"/>
+<booleanAttribute key="org.eclipse.rap.launch.developmentMode" value="true"/>
+<booleanAttribute key="org.eclipse.rap.launch.openBrowser" value="false"/>
+<intAttribute key="org.eclipse.rap.launch.port" value="7070"/>
+<stringAttribute key="org.eclipse.rap.launch.servletPath" value="/main"/>
+<intAttribute key="org.eclipse.rap.launch.sessionTimeout" value="1000"/>
+<booleanAttribute key="org.eclipse.rap.launch.terminatePrevious" value="true"/>
+<booleanAttribute key="org.eclipse.rap.launch.useDefaultDataLocation" value="true"/>
+<booleanAttribute key="org.eclipse.rap.launch.useManualContextPath" value="true"/>
+<booleanAttribute key="org.eclipse.rap.launch.useManualPort" value="true"/>
+<booleanAttribute key="org.eclipse.rap.launch.useSessionTimeout" value="false"/>
+<stringAttribute key="pde.version" value="3.3"/>
+<setAttribute key="selected_features">
+<setEntry value="org.eclipse.rap.equinox.juno.target.feature:default"/>
+<setEntry value="org.eclipse.rap.examples.feature:default"/>
+<setEntry value="org.eclipse.rap.feature:default"/>
+</setAttribute>
+<booleanAttribute key="show_selected_only" value="true"/>
+<stringAttribute key="target_bundles" value="ch.qos.logback.classic@default:default,ch.qos.logback.core@default:default,ch.qos.logback.slf4j@default:false,com.ibm.icu.base@default:default,javax.servlet@default:default,javax.xml@default:default,org.apache.commons.codec@default:default,org.apache.commons.logging@default:default,org.apache.felix.gogo.command@default:default,org.apache.felix.gogo.runtime@default:default,org.apache.felix.gogo.shell@default:default,org.eclipse.core.commands@default:default,org.eclipse.core.contenttype@default:default,org.eclipse.core.databinding.beans@default:default,org.eclipse.core.databinding.observable@default:default,org.eclipse.core.databinding.property@default:default,org.eclipse.core.databinding@default:default,org.eclipse.core.expressions@default:default,org.eclipse.core.jobs@default:default,org.eclipse.core.runtime@1:true,org.eclipse.equinox.app@default:default,org.eclipse.equinox.common@3:default,org.eclipse.equinox.console@default:default,org.eclipse.equinox.ds@2:true,org.eclipse.equinox.http.jetty@default:default,org.eclipse.equinox.http.registry@default:default,org.eclipse.equinox.http.servlet@default:default,org.eclipse.equinox.http.servletbridge@default:default,org.eclipse.equinox.preferences@default:default,org.eclipse.equinox.registry@default:default,org.eclipse.equinox.servletbridge.extensionbundle@default:false,org.eclipse.equinox.servletbridge@default:default,org.eclipse.equinox.util@default:default,org.eclipse.help@default:default,org.eclipse.jdt.junit.runtime@default:default,org.eclipse.jetty.continuation@default:default,org.eclipse.jetty.http@default:default,org.eclipse.jetty.io@default:default,org.eclipse.jetty.security@default:default,org.eclipse.jetty.server@default:default,org.eclipse.jetty.servlet@default:default,org.eclipse.jetty.util@default:default,org.eclipse.osgi.services@default:default,org.eclipse.osgi@-1:true,org.eclipse.rap.jface.databinding@default:default,org.eclipse.rap.jface@default:default,org.eclipse.rap.junit.runtime@default:default,org.eclipse.rap.junit@default:default,org.eclipse.rap.rwt.osgi@default:default,org.eclipse.rap.rwt.testfixture@default:default,org.eclipse.rap.rwt@default:default,org.eclipse.rap.ui.cheatsheets@default:default,org.eclipse.rap.ui.forms@default:default,org.eclipse.rap.ui.navigator@default:default,org.eclipse.rap.ui.views@default:default,org.eclipse.rap.ui.workbench@default:default,org.eclipse.rap.ui@default:default,org.json@default:default,org.junit@default:default,org.slf4j.api@default:default"/>
+<stringAttribute key="timestamp" value="1374064630826"/>
+<booleanAttribute key="tracing" value="false"/>
+<booleanAttribute key="useCustomFeatures" value="false"/>
+<booleanAttribute key="useDefaultConfigArea" value="true"/>
+<stringAttribute key="workspace_bundles" value="org.centerom.almistack.core@default:default,org.centerom.almistack.dependencies@default:default,org.centerom.almistack.domain@default:default,org.centerom.almistack.services@default:default,org.centerom.almistack.servicesimpl@default:default,org.centerom.almistack.ui.rap@default:false,org.centerom.almistack.ui@default:default"/>
+</launchConfiguration>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" name="org.centerom.almistack.consumerComponent">
+	<implementation class="org.centerom.almistack.ui.consumers.ServiceConsumer"/>
+	<reference name="IRepositoryConnectorService"
+			   interface="org.centerom.almistack.services.connector.IRepositoryConnectorService"
+			   policy="static"
+			   cardinality="1..1"
+			   bind="registerConnectorSrv"
+			   unbind="unregisterConnectorSrv"/>
+	<reference name="ILoggerService"
+			   interface="org.centerom.almistack.services.logger.ILoggerService"
+			   policy="static"
+			   cardinality="1..1"
+			   bind="registerLoggerSrv"
+			   unbind="unregisterLoggerSrv"/>
+</scr:component>

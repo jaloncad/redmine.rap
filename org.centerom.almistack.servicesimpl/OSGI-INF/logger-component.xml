@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0"
+			   name="org.centerom.almistack.servicesimpl.loggerComponent"
+			   activate="activate"
+			   deactivate="deactivate"
+			   modified="modified"
+			   enabled="true"
+			   immediate="true">
+	<implementation class="org.centerom.almistack.servicesimpl.logger.LoggerService"/>
+	<service>
+		<provide interface="org.centerom.almistack.services.logger.ILoggerService"/>
+	</service>
+ <properties entry="src/main/resources/config/logger/loggerService.properties"/>
+</scr:component>

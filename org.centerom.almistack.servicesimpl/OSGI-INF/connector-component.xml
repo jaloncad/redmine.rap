@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0"
+			   name="org.centerom.almistack.servicesimpl.connectorComponent"
+			   activate="activate"
+			   deactivate="deactivate"
+			   modified="modified"
+			   enabled="true"
+			   immediate="true">
+	<implementation class="org.centerom.almistack.servicesimpl.connector.redmine.RedmineConnectorService"/>
+	<service>
+		<provide interface="org.centerom.almistack.services.connector.IRepositoryConnectorService"/>
+	</service>
+	<properties entry="src/main/resources/config/connector/redmine/redmineConnectorService.properties"/>
+</scr:component>

@@ -391,9 +391,6 @@ public final class Transport {
 //			ConfigurationUtil.getInstance().configureLog();
 			
 			
-			logger.info("deberia salir");
-			logger.debug("NO deberia salir");
-			
 			final HttpGet http = new HttpGet(uri);
 
 			final String response = getCommunicator().sendRequest(http);

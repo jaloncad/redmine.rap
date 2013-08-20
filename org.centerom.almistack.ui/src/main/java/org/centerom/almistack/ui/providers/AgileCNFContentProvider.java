@@ -165,7 +165,6 @@ public class AgileCNFContentProvider implements ITreeContentProvider {
 	private  Map<Integer, Product> getAgileHierarchy() {
 		
 		try {
-			logger.debug("adiosssssssssssssssssss");
 			this.agileHierarchy = ServiceConsumer.getRepositoryConnectorService().getProductsHierarchy();
 		}
 		catch (ServiceException e) {

@@ -10,5 +10,5 @@
 	<service>
 		<provide interface="org.centerom.almistack.services.logger.ILoggerService"/>
 	</service>
- <properties entry="src/main/resources/config/logger/loggerService.properties"/>
+ <properties entry="target/classes/config/logger/loggerService.properties"/>
 </scr:component>

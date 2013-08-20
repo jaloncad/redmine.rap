@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<fragment>
+   <extension
+         id="org.centerom.almistack.ui.rcp.entryPointId"
+         point="org.eclipse.core.runtime.applications">
+      <application
+            cardinality="singleton-global"
+            thread="main"
+            visible="true">
+         <run
+               class="org.centerom.almistack.ui.rcp.internal.DeskEntryPoint">
+         </run>
+      </application>
+   </extension>
+   <extension
+         id="product"
+         point="org.eclipse.core.runtime.products">
+      <product
+            application="org.centerom.almistack.ui.rcp.entryPointId"
+            name="org.centerom.almistack.rcp.product">
+         <property
+               name="appName"
+               value="org.centerom.almistack.rcp.product">
+         </property>
+      </product>
+   </extension>
+
+
+
+
+</fragment>
+
+
+
+   
+   
+   

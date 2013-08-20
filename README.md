@@ -51,9 +51,11 @@ The Launch configurations and target platforms for rcp and rap are located in:
 * org.centerom.almistack.targetplatform.rap
 
 The configuration for Redmine host is located in 
-> org.centerom.almistack.servicesimpl/src/main/resources/config.connector.redmine.redmineConnectorService.properties
+> org.centerom.almistack.servicesimpl/src/main/resources/
+>						config.connector.redmine.redmineConnectorService.properties
 
-# Connection parameters to change
+Connection parameters to change:
+
 connection.host   = http://180.106.44.7/redmine/
 connection.apiKey = 7a7318f9796aa16c00078dea2a1f6b6f7427a157
 
@@ -66,10 +68,11 @@ In each workspace you need to have only the fragments and tragetplatform for the
 
 It's easy to launch with the *.launch provided in the targetplatform plugins one for each environment.
 
+RAP result (local url: http://localhost:7070/almistack/application):
+
+![RAP screenshot](https://raw.github.com/jaloncad/redmine.rap/master/rap.jpg)
+
+
 RCP result:
 
 ![RCP screenshot](https://raw.github.com/jaloncad/redmine.rap/master/rcp.jpg)
-
-RAP result:
-
-![RAP screenshot](https://raw.github.com/jaloncad/redmine.rap/master/rap.jpg)

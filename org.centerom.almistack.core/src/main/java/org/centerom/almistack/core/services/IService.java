@@ -18,10 +18,10 @@ public interface IService {
 	 * the configuration properties are modified while the component is
 	 * activated.
 	 * 
-	 * @param properties the new configuration properties 
+	 * @param configuration the new configuration properties 
 	 */
-	abstract void innerInitialize(Map<String, String> properties) throws ServiceException;
+	abstract void innerInitialize(Map<String, String> configuration) throws ServiceException;
 
 }
-// End <IOSGIServive> class
-// --- -------------- -----
+// End <IService> class
+// --- ---------- -----
